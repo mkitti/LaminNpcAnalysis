@@ -1,0 +1,44 @@
+function [ r, bfMemoDir] = bfGetMemoizer( reader , bfMemoDir)
+%bfGetMemoizer Get loci.formats.Memoizer
+%
+% INPUT
+% reader - via bfGetReader, if empty it calls bfGetReader with no args
+% bfMemoDir - by default it is the value of bfGetMemoDirectory()
+%             if empty then the bfMemoDir is not specified
+%
+% OUTPUT
+% r - java class handle to a loci.formats.Memoizer instance
+% bfMemoDir - memo directory used as in bfGetMemoDirectory
+%
+% See also bfGetMemoDirectory, bfGetReader
+
+% Mark Kittisopikul, Northwestern, 2018/01/09
+
+
+    if(nargin < 1 || isempty(reader))
+        % Create an empty Bio-Formats if non-given
+        reader = bfGetReader();
+    end
+    if(nargin < 2)
+        bfMemoDir = bfGetMemoDirectory();
+    end
+    if(ischar(reader))
+        reader = bfGetReader(reader);
+    end
+    
+    minimumTimeElapsed = 0;
+    % Consider using this instead
+    % minimumTimeElapsed = loci.formats.Memoizer.DEFAULT_MINIMUM_ELAPSED;
+    % https://downloads.openmicroscopy.org/bio-formats/5.7.2/api/loci/formats/Memoizer.html#minimumElapsed
+    % See https://github.com/openmicroscopy/bioformats/blob/master/components/formats-bsd/src/loci/formats/Memoizer.java
+
+    % Only pass bfMemoDir through if it is not empty
+    if(~isempty(bfMemoDir))
+        r = loci.formats.Memoizer(reader,minimumTimeElapsed,java.io.File(bfMemoDir));
+    else
+        r = loci.formats.Memoizer(reader,minimumTimeElapsed);
+    end
+
+
+end
+

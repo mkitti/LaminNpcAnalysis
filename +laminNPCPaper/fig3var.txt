@@ -1,0 +1,111 @@
+>> laminNPCPaper.printstruct(fig3)
+fig3
+   |    
+   |--- face
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |--- LACkoLB1 : 122.119
+   |       |       |-- LACkoLB1r : 133.206
+   |       |       |---- LB1koLA : 123.971
+   |       |       |--- LB1koLAr : 146.009
+   |       |       |------- wtLA : 119.28
+   |       |       |------ wtLAr : 130.942
+   |       |       |------ wtLB1 : 118.311
+   |       |       |----- wtLB1r : 129.074
+   |       |       |------ wtLB2 : 116.694
+   |       |       |----- wtLB2r : 117.295
+   |       |       |------- wtLC : 119.417
+   |       |       |------ wtLCr : 123.323
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-- LACkoLB1_minus_LACkoLB1r : -11.0867
+   |       |       |---- LB1koLA_minus_LB1koLAr : -22.0374
+   |       |       |---------- wtLA_minus_wtLAr : -11.6613
+   |       |       |-------- wtLB1_minus_wtLB1r : -10.7627
+   |       |       |-------- wtLB2_minus_wtLB2r : -0.601081
+   |       |       |---------- wtLC_minus_wtLCr : -3.90622
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : 2.52911e-86
+   |       |       |---- LB1koLA_vs_LB1koLAr : 8.65976e-235
+   |       |       |---------- wtLA_vs_wtLAr : 5.26474e-89
+   |       |       |-------- wtLB1_vs_wtLB1r : 7.00764e-96
+   |       |       |-------- wtLB2_vs_wtLB2r : 0.247983
+   |       |       |---------- wtLC_vs_wtLCr : 1.94154e-16
+   |       |    
+   |       |--- p_values_dispersion
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : NaN
+   |       |       |---- LB1koLA_vs_LB1koLAr : NaN
+   |       |       |---------- wtLA_vs_wtLAr : NaN
+   |       |       |-------- wtLB1_vs_wtLB1r : NaN
+   |       |       |-------- wtLB2_vs_wtLB2r : 0.0829533
+   |       |       |---------- wtLC_vs_wtLCr : NaN
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : 1.00431e-38
+   |       |       |---- LB1koLA_vs_LB1koLAr : 9.66645e-113
+   |       |       |---------- wtLA_vs_wtLAr : 1.46276e-36
+   |       |       |-------- wtLB1_vs_wtLB1r : 1.10262e-43
+   |       |       |-------- wtLB2_vs_wtLB2r : 0.417481
+   |       |       |---------- wtLC_vs_wtLCr : 1.76762e-06
+   |       |    
+   |    
+   |--- lamin
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |--- LACkoLB1 : 34.9411
+   |       |       |-- LACkoLB1r : 35.7731
+   |       |       |---- LB1koLA : 45.133
+   |       |       |--- LB1koLAr : 42.41
+   |       |       |------- wtLA : 40.3928
+   |       |       |------ wtLAr : 33.5175
+   |       |       |------ wtLB1 : 38.1039
+   |       |       |----- wtLB1r : 32.0638
+   |       |       |------ wtLB2 : 27.564
+   |       |       |----- wtLB2r : 28.1378
+   |       |       |------- wtLC : 30.9398
+   |       |       |------ wtLCr : 30.8517
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-- LACkoLB1_minus_LACkoLB1r : -0.831926
+   |       |       |---- LB1koLA_minus_LB1koLAr : 2.72293
+   |       |       |---------- wtLA_minus_wtLAr : 6.87534
+   |       |       |-------- wtLB1_minus_wtLB1r : 6.04009
+   |       |       |-------- wtLB2_minus_wtLB2r : -0.573809
+   |       |       |---------- wtLC_minus_wtLCr : 0.0881551
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : 7.45214e-08
+   |       |       |---- LB1koLA_vs_LB1koLAr : 0.59391
+   |       |       |---------- wtLA_vs_wtLAr : 6.83927e-67
+   |       |       |-------- wtLB1_vs_wtLB1r : 1.54666e-60
+   |       |       |-------- wtLB2_vs_wtLB2r : 0.000739824
+   |       |       |---------- wtLC_vs_wtLCr : 0.366323
+   |       |    
+   |       |--- p_values_dispersion
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : NaN
+   |       |       |---- LB1koLA_vs_LB1koLAr : 2.74335e-110
+   |       |       |---------- wtLA_vs_wtLAr : NaN
+   |       |       |-------- wtLB1_vs_wtLB1r : NaN
+   |       |       |-------- wtLB2_vs_wtLB2r : NaN
+   |       |       |---------- wtLC_vs_wtLCr : 8.13065e-06
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-- LACkoLB1_vs_LACkoLB1r : 0.00378172
+   |       |       |---- LB1koLA_vs_LB1koLAr : 0.62506
+   |       |       |---------- wtLA_vs_wtLAr : 6.58203e-29
+   |       |       |-------- wtLB1_vs_wtLB1r : 3.35601e-27
+   |       |       |-------- wtLB2_vs_wtLB2r : 0.0354821
+   |       |       |---------- wtLC_vs_wtLCr : 0.428586
+   |       |    
+   |    

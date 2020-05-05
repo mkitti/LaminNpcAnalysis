@@ -1,0 +1,679 @@
+laminNPCPaper.printstruct(fig6)
+fig6
+   |    
+   |--- LA
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 70.8116
+   |       |       |----- elyskdr : 32.9496
+   |       |       |---- nup153kd : 50.0828
+   |       |       |--- nup153kdr : 31.1022
+   |       |       |--- scrambled : 50.8558
+   |       |       |-- scrambledr : 33.5692
+   |       |       |------- tprkd : 58.3896
+   |       |       |------ tprkdr : 31.8711
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : 37.8619
+   |       |       |---- nup153kd_minus_nup153kdr : 18.9805
+   |       |       |-- scrambled_minus_scrambledr : 17.2866
+   |       |       |---------- tprkd_minus_tprkdr : 26.5184
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 70.8116
+   |       |       |       |----- elyskdr : 32.9496
+   |       |       |       |---- nup153kd : 50.0828
+   |       |       |       |--- nup153kdr : 31.1022
+   |       |       |       |--- scrambled : 50.8558
+   |       |       |       |-- scrambledr : 33.5692
+   |       |       |       |------- tprkd : 58.3896
+   |       |       |       |------ tprkdr : 31.8711
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : 19.9558
+   |       |       |       |----- elyskdr_minus_scrambled : -17.9062
+   |       |       |       |---- nup153kd_minus_scrambled : -0.773031
+   |       |       |       |--- nup153kdr_minus_scrambled : -19.7535
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : -17.2866
+   |       |       |       |------- tprkd_minus_scrambled : 7.5338
+   |       |       |       |------ tprkdr_minus_scrambled : -18.9846
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 0
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 0.00223607
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 1.50406e-77
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 8.98838e-296
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 0.0029859
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 4.56659e-77
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |    
+   |    
+   |--- LAface
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 89.7156
+   |       |       |----- elyskdr : 129.65
+   |       |       |---- nup153kd : 99.66
+   |       |       |--- nup153kdr : 126.246
+   |       |       |--- scrambled : 106.151
+   |       |       |-- scrambledr : 131.953
+   |       |       |------- tprkd : 88.846
+   |       |       |------ tprkdr : 126.92
+   |       |       |---------- wt : 119.28
+   |       |       |--------- wtr : 130.942
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : -39.9344
+   |       |       |---- nup153kd_minus_nup153kdr : -26.5856
+   |       |       |-- scrambled_minus_scrambledr : -25.8023
+   |       |       |---------- tprkd_minus_tprkdr : -38.0743
+   |       |       |---------------- wt_minus_wtr : -11.6613
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 5.26474e-89
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 2.43546e-41
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 89.7156
+   |       |       |       |----- elyskdr : 129.65
+   |       |       |       |---- nup153kd : 99.66
+   |       |       |       |--- nup153kdr : 126.246
+   |       |       |       |--- scrambled : 106.151
+   |       |       |       |-- scrambledr : 131.953
+   |       |       |       |------- tprkd : 88.846
+   |       |       |       |------ tprkdr : 126.92
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : -16.4356
+   |       |       |       |----- elyskdr_minus_scrambled : 23.4989
+   |       |       |       |---- nup153kd_minus_scrambled : -6.49112
+   |       |       |       |--- nup153kdr_minus_scrambled : 20.0945
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : 25.8023
+   |       |       |       |------- tprkd_minus_scrambled : -17.3051
+   |       |       |       |------ tprkdr_minus_scrambled : 20.7691
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 4.16087e-174
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 1.46137e-51
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 3.41609e-302
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 2.11041e-122
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 1.69677e-47
+   |       |       |       |--- nup153kdr_vs_scrambled : 1.09512e-301
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 2.01898e-300
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |    
+   |    
+   |--- LB1
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 48.4859
+   |       |       |----- elyskdr : 31.1025
+   |       |       |---- nup153kd : 46.8692
+   |       |       |--- nup153kdr : 35.1603
+   |       |       |--- scrambled : 51.6049
+   |       |       |-- scrambledr : 35.3942
+   |       |       |------- tprkd : 52.1287
+   |       |       |------ tprkdr : 31.2818
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : 17.3834
+   |       |       |---- nup153kd_minus_nup153kdr : 11.709
+   |       |       |-- scrambled_minus_scrambledr : 16.2107
+   |       |       |---------- tprkd_minus_tprkdr : 20.847
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 4.83439e-172
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 48.4859
+   |       |       |       |----- elyskdr : 31.1025
+   |       |       |       |---- nup153kd : 46.8692
+   |       |       |       |--- nup153kdr : 35.1603
+   |       |       |       |--- scrambled : 51.6049
+   |       |       |       |-- scrambledr : 35.3942
+   |       |       |       |------- tprkd : 52.1287
+   |       |       |       |------ tprkdr : 31.2818
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : -3.11904
+   |       |       |       |----- elyskdr_minus_scrambled : -20.5025
+   |       |       |       |---- nup153kd_minus_scrambled : -4.73568
+   |       |       |       |--- nup153kdr_minus_scrambled : -16.4447
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : -16.2107
+   |       |       |       |------- tprkd_minus_scrambled : 0.523807
+   |       |       |       |------ tprkdr_minus_scrambled : -20.3231
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 3.64691e-21
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 3.38099e-33
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 0.00263342
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 1.778e-15
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 2.13296e-29
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 0.00468915
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |    
+   |    
+   |--- LB1face
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 101.486
+   |       |       |----- elyskdr : 125.572
+   |       |       |---- nup153kd : 118.794
+   |       |       |--- nup153kdr : 135.79
+   |       |       |--- scrambled : 113.981
+   |       |       |-- scrambledr : 138.629
+   |       |       |------- tprkd : 96.657
+   |       |       |------ tprkdr : 126.642
+   |       |       |---------- wt : 118.311
+   |       |       |--------- wtr : 129.074
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : -24.0859
+   |       |       |---- nup153kd_minus_nup153kdr : -16.9966
+   |       |       |-- scrambled_minus_scrambledr : -24.6483
+   |       |       |---------- tprkd_minus_tprkdr : -29.9846
+   |       |       |---------------- wt_minus_wtr : -10.7627
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 7.00764e-96
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 1.09323e-175
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 1.88002e-43
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 101.486
+   |       |       |       |----- elyskdr : 125.572
+   |       |       |       |---- nup153kd : 118.794
+   |       |       |       |--- nup153kdr : 135.79
+   |       |       |       |--- scrambled : 113.981
+   |       |       |       |-- scrambledr : 138.629
+   |       |       |       |------- tprkd : 96.657
+   |       |       |       |------ tprkdr : 126.642
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : -12.4947
+   |       |       |       |----- elyskdr_minus_scrambled : 11.5912
+   |       |       |       |---- nup153kd_minus_scrambled : 4.81314
+   |       |       |       |--- nup153kdr_minus_scrambled : 21.8097
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : 24.6483
+   |       |       |       |------- tprkd_minus_scrambled : -17.3237
+   |       |       |       |------ tprkdr_minus_scrambled : 12.661
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 1.2585e-124
+   |       |       |       |----- elyskdr_vs_scrambled : 3.52033e-166
+   |       |       |       |---- nup153kd_vs_scrambled : 1.57221e-14
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 1.67269e-294
+   |       |       |       |------ tprkdr_vs_scrambled : 7.75589e-201
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 5.94292e-94
+   |       |       |       |----- elyskdr_vs_scrambled : 2.78989e-79
+   |       |       |       |---- nup153kd_vs_scrambled : 1.58243e-12
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 2.85348e-276
+   |       |       |       |------ tprkdr_vs_scrambled : 2.5724e-95
+   |       |       |    
+   |       |    
+   |    
+   |--- LB2
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 34.1774
+   |       |       |----- elyskdr : 31.1714
+   |       |       |---- nup153kd : 24.9552
+   |       |       |--- nup153kdr : 31.6822
+   |       |       |--- scrambled : 30.0721
+   |       |       |-- scrambledr : 34.4447
+   |       |       |------- tprkd : 28.5602
+   |       |       |------ tprkdr : 30.2375
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : 3.00601
+   |       |       |---- nup153kd_minus_nup153kdr : -6.72703
+   |       |       |-- scrambled_minus_scrambledr : -4.37252
+   |       |       |---------- tprkd_minus_tprkdr : -1.67725
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 2.41886e-29
+   |       |       |---- nup153kd_vs_nup153kdr : 3.90026e-279
+   |       |       |-- scrambled_vs_scrambledr : 3.7635e-100
+   |       |       |---------- tprkd_vs_tprkdr : 2.79539e-28
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 3.75565e-13
+   |       |       |---- nup153kd_vs_nup153kdr : 6.79747e-134
+   |       |       |-- scrambled_vs_scrambledr : 2.87378e-46
+   |       |       |---------- tprkd_vs_tprkdr : 4.95911e-11
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 34.1774
+   |       |       |       |----- elyskdr : 31.1714
+   |       |       |       |---- nup153kd : 24.9552
+   |       |       |       |--- nup153kdr : 31.6822
+   |       |       |       |--- scrambled : 30.0721
+   |       |       |       |-- scrambledr : 34.4447
+   |       |       |       |------- tprkd : 28.5602
+   |       |       |       |------ tprkdr : 30.2375
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : 4.10522
+   |       |       |       |----- elyskdr_minus_scrambled : 1.09921
+   |       |       |       |---- nup153kd_minus_scrambled : -5.117
+   |       |       |       |--- nup153kdr_minus_scrambled : 1.61004
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : 4.37252
+   |       |       |       |------- tprkd_minus_scrambled : -1.51195
+   |       |       |       |------ tprkdr_minus_scrambled : 0.165306
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 8.2795e-32
+   |       |       |       |----- elyskdr_vs_scrambled : 2.79987e-05
+   |       |       |       |---- nup153kd_vs_scrambled : 1.32825e-102
+   |       |       |       |--- nup153kdr_vs_scrambled : 1.91836e-16
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 3.7635e-100
+   |       |       |       |------- tprkd_vs_scrambled : 8.40282e-17
+   |       |       |       |------ tprkdr_vs_scrambled : 0.766805
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 4.0531e-25
+   |       |       |       |----- elyskdr_vs_scrambled : 0.0075358
+   |       |       |       |---- nup153kd_vs_scrambled : 3.64542e-90
+   |       |       |       |--- nup153kdr_vs_scrambled : 9.27831e-07
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 4.52675e-46
+   |       |       |       |------- tprkd_vs_scrambled : 2.71781e-16
+   |       |       |       |------ tprkdr_vs_scrambled : 0.646566
+   |       |       |    
+   |       |    
+   |    
+   |--- LB2face
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 120.589
+   |       |       |----- elyskdr : 126.472
+   |       |       |---- nup153kd : 136.633
+   |       |       |--- nup153kdr : 127.595
+   |       |       |--- scrambled : 138.811
+   |       |       |-- scrambledr : 134.648
+   |       |       |------- tprkd : 125.189
+   |       |       |------ tprkdr : 124.055
+   |       |       |---------- wt : 116.694
+   |       |       |--------- wtr : 117.295
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : -5.88277
+   |       |       |---- nup153kd_minus_nup153kdr : 9.0379
+   |       |       |-- scrambled_minus_scrambledr : 4.16318
+   |       |       |---------- tprkd_minus_tprkdr : 1.13392
+   |       |       |---------------- wt_minus_wtr : -0.601081
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 1.05512e-47
+   |       |       |---- nup153kd_vs_nup153kdr : 8.72885e-119
+   |       |       |-- scrambled_vs_scrambledr : 7.00456e-19
+   |       |       |---------- tprkd_vs_tprkdr : 0.00386518
+   |       |       |---------------- wt_vs_wtr : 0.247983
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 4.8558e-21
+   |       |       |---- nup153kd_vs_nup153kdr : 1.40045e-56
+   |       |       |-- scrambled_vs_scrambledr : 7.89716e-09
+   |       |       |---------- tprkd_vs_tprkdr : 0.0656945
+   |       |       |---------------- wt_vs_wtr : 0.473604
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 120.589
+   |       |       |       |----- elyskdr : 126.472
+   |       |       |       |---- nup153kd : 136.633
+   |       |       |       |--- nup153kdr : 127.595
+   |       |       |       |--- scrambled : 138.811
+   |       |       |       |-- scrambledr : 134.648
+   |       |       |       |------- tprkd : 125.189
+   |       |       |       |------ tprkdr : 124.055
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : -18.2219
+   |       |       |       |----- elyskdr_minus_scrambled : -12.3392
+   |       |       |       |---- nup153kd_minus_scrambled : -2.17826
+   |       |       |       |--- nup153kdr_minus_scrambled : -11.2162
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : -4.16318
+   |       |       |       |------- tprkd_minus_scrambled : -13.622
+   |       |       |       |------ tprkdr_minus_scrambled : -14.7559
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 4.19632e-255
+   |       |       |       |----- elyskdr_vs_scrambled : 1.35866e-258
+   |       |       |       |---- nup153kd_vs_scrambled : 0.000312835
+   |       |       |       |--- nup153kdr_vs_scrambled : 5.86829e-184
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 7.00456e-19
+   |       |       |       |------- tprkd_vs_scrambled : 4.01263e-186
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 1.72055e-206
+   |       |       |       |----- elyskdr_vs_scrambled : 5.34139e-123
+   |       |       |       |---- nup153kd_vs_scrambled : 0.000784289
+   |       |       |       |--- nup153kdr_vs_scrambled : 5.71535e-87
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 2.90041e-08
+   |       |       |       |------- tprkd_vs_scrambled : 1.27633e-179
+   |       |       |       |------ tprkdr_vs_scrambled : 1.12857e-186
+   |       |       |    
+   |       |    
+   |    
+   |--- LC
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 63.1042
+   |       |       |----- elyskdr : 32.8373
+   |       |       |---- nup153kd : 39.908
+   |       |       |--- nup153kdr : 29.7784
+   |       |       |--- scrambled : 42.9028
+   |       |       |-- scrambledr : 31.7397
+   |       |       |------- tprkd : 56.5693
+   |       |       |------ tprkdr : 31.1798
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : 30.2669
+   |       |       |---- nup153kd_minus_nup153kdr : 10.1296
+   |       |       |-- scrambled_minus_scrambledr : 11.1631
+   |       |       |---------- tprkd_minus_tprkdr : 25.3895
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 3.77253e-248
+   |       |       |-- scrambled_vs_scrambledr : 6.34154e-226
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 63.1042
+   |       |       |       |----- elyskdr : 32.8373
+   |       |       |       |---- nup153kd : 39.908
+   |       |       |       |--- nup153kdr : 29.7784
+   |       |       |       |--- scrambled : 42.9028
+   |       |       |       |-- scrambledr : 31.7397
+   |       |       |       |------- tprkd : 56.5693
+   |       |       |       |------ tprkdr : 31.1798
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : 20.2014
+   |       |       |       |----- elyskdr_minus_scrambled : -10.0655
+   |       |       |       |---- nup153kd_minus_scrambled : -2.9948
+   |       |       |       |--- nup153kdr_minus_scrambled : -13.1244
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : -11.1631
+   |       |       |       |------- tprkd_minus_scrambled : 13.6665
+   |       |       |       |------ tprkdr_minus_scrambled : -11.723
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 0
+   |       |       |       |----- elyskdr_vs_scrambled : 2.07508e-322
+   |       |       |       |---- nup153kd_vs_scrambled : 2.08701e-17
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 1.8641e-306
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 0
+   |       |       |       |----- elyskdr_vs_scrambled : 1.02158e-158
+   |       |       |       |---- nup153kd_vs_scrambled : 1.81257e-16
+   |       |       |       |--- nup153kdr_vs_scrambled : 0
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 4.57306e-217
+   |       |       |       |------- tprkd_vs_scrambled : 3.32618e-293
+   |       |       |       |------ tprkdr_vs_scrambled : 6.09781e-248
+   |       |       |    
+   |       |    
+   |    
+   |--- LCface
+   |       |    
+   |       |--- median
+   |       |       |    
+   |       |       |------ elyskd : 96.1302
+   |       |       |----- elyskdr : 129.868
+   |       |       |---- nup153kd : 106.589
+   |       |       |--- nup153kdr : 122.935
+   |       |       |--- scrambled : 109.092
+   |       |       |-- scrambledr : 126.49
+   |       |       |------- tprkd : 89.8971
+   |       |       |------ tprkdr : 125.82
+   |       |       |---------- wt : 119.417
+   |       |       |--------- wtr : 123.323
+   |       |    
+   |       |--- median_diff
+   |       |       |    
+   |       |       |-------- elyskd_minus_elyskdr : -33.7379
+   |       |       |---- nup153kd_minus_nup153kdr : -16.3457
+   |       |       |-- scrambled_minus_scrambledr : -17.3985
+   |       |       |---------- tprkd_minus_tprkdr : -35.9228
+   |       |       |---------------- wt_minus_wtr : -3.90622
+   |       |    
+   |       |--- p_values
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 0
+   |       |       |-- scrambled_vs_scrambledr : 0
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 1.94154e-16
+   |       |    
+   |       |--- p_values_matched
+   |       |       |    
+   |       |       |-------- elyskd_vs_elyskdr : 0
+   |       |       |---- nup153kd_vs_nup153kdr : 5.10687e-250
+   |       |       |-- scrambled_vs_scrambledr : 2.02067e-266
+   |       |       |---------- tprkd_vs_tprkdr : 0
+   |       |       |---------------- wt_vs_wtr : 1.13821e-07
+   |       |    
+   |       |--- vs_scrambled
+   |       |       |    
+   |       |       |--- median
+   |       |       |       |    
+   |       |       |       |------ elyskd : 96.1302
+   |       |       |       |----- elyskdr : 129.868
+   |       |       |       |---- nup153kd : 106.589
+   |       |       |       |--- nup153kdr : 122.935
+   |       |       |       |--- scrambled : 109.092
+   |       |       |       |-- scrambledr : 126.49
+   |       |       |       |------- tprkd : 89.8971
+   |       |       |       |------ tprkdr : 125.82
+   |       |       |    
+   |       |       |--- median_diff
+   |       |       |       |    
+   |       |       |       |------ elyskd_minus_scrambled : -12.9613
+   |       |       |       |----- elyskdr_minus_scrambled : 20.7765
+   |       |       |       |---- nup153kd_minus_scrambled : -2.50264
+   |       |       |       |--- nup153kdr_minus_scrambled : 13.843
+   |       |       |       |--- scrambled_minus_scrambled : 0
+   |       |       |       |-- scrambledr_minus_scrambled : 17.3985
+   |       |       |       |------- tprkd_minus_scrambled : -19.1944
+   |       |       |       |------ tprkdr_minus_scrambled : 16.7283
+   |       |       |    
+   |       |       |--- p_values
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 2.2702e-119
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 1.54856e-07
+   |       |       |       |--- nup153kdr_vs_scrambled : 1.865e-319
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 0
+   |       |       |       |------- tprkd_vs_scrambled : 0
+   |       |       |       |------ tprkdr_vs_scrambled : 0
+   |       |       |    
+   |       |       |--- p_values_matched
+   |       |       |       |    
+   |       |       |       |------ elyskd_vs_scrambled : 1.00439e-96
+   |       |       |       |----- elyskdr_vs_scrambled : 0
+   |       |       |       |---- nup153kd_vs_scrambled : 3.25092e-07
+   |       |       |       |--- nup153kdr_vs_scrambled : 2.18363e-159
+   |       |       |       |--- scrambled_vs_scrambled : 1
+   |       |       |       |-- scrambledr_vs_scrambled : 1.42334e-267
+   |       |       |       |------- tprkd_vs_scrambled : 0
+   |       |       |       |------ tprkdr_vs_scrambled : 6.41711e-242
+   |       |       |    
+   |       |    
+   |    

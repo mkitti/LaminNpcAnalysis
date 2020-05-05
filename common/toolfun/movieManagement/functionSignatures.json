@@ -1,0 +1,26 @@
+{
+
+"MovieData.load":
+{
+    "inputs":
+    [
+        {"name":"matFilePath","kind":"required","type":"filepath=*.mat" }
+    ],
+    "outputs":
+    [
+    {"name":"MD","type":"MovieData"}
+    ]
+},
+"MovieList.load":
+{
+    "inputs":
+    [
+        {"name":"matFilePath","kind":"required","type":"filepath=*.mat" }
+    ],
+    "outputs":
+    [
+    {"name":"ML","type":"MovieList"}
+    ]
+}
+
+}
