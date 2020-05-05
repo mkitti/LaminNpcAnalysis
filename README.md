@@ -9,6 +9,8 @@ Nuclear lamin isoforms assemble into fibrous meshworks within the nuclear lamina
 
 ## Software Synopsis
 
+![Segmented lamins in yellow and NPCs in cyan](web_images/NPC-Lamin_Detection.png)
+
 High-resolution microscopy imaging sampled beyond the critical Nyquist requirements allows for interpolation to create a continuous image. Features that describe biological complexes such as nuclear pore complexes (NPCs) and lamin isoform fibers can be extracted in a continuous manner without having to round to the nearest pixel. By employing convolutional filtering, we find the centers of NPCs and lamin fibers by locating local maxima within the continuous image in two distinct channels. This enables the measurement of distances between the centers to high precision, albeit with localization error. The localization error can be averaged out by looking at distributions of measurements and drawing conclusions by using statistics to compare the distributions. To evaluate the relationship between NPCs and lamins, we measure these distributions and compare them to them to controls. These controls include the expected distribution if no relationship existed between the NPCs and lamin fibers as well as biological controls.
 
 To locate lamin fibers, this software package uses Adaptive Resolution Orientation Space software. That software written for this analysis allows for the detection of fiber orientation which then enables subpixel localization of the fiber centers.
@@ -17,7 +19,13 @@ To locate NPCs, 2D local maxima detection is used based on point source detector
 
 ## Usage
 
-Run performAnalysis.m in MATLAB
+1. Download the repository zip file or use git clone
+2. Open MATLAB version R2017A or later
+3. Run performAnalysis.m
+4. Select All Files (*.*) to view all files in the file dialog
+5. Select a microscopy image file
+6. Use the "movie" viewer to examine the auto-focus selection and assign channels to lamins or NPCs via the dialog box
+7. Press OK
 
 ## Dependencies
 
