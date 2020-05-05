@@ -1,5 +1,20 @@
 function [ out_median, out_median_diff, out_p_values, out_p_values_matched, out_p_values_dispersion, out_p_values_dispersion_matched ] = calc_median_and_p_values( in_struct )
 %calc_median_and_p_values Calculate median and p-values using ranksum
+%     laminNPCAnalysis - Analyze Lamin Fibers and Nuclear Pore Complexes
+%     Copyright (C) 2020 Mark Kittisopikul, Northwestern University
+% 
+%     This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     (at your option) any later version.
+% 
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+% 
+%     You should have received a copy of the GNU General Public License
+%     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 %% Calculate p-values
 fields = fieldnames(in_struct);
