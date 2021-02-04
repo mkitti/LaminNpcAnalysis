@@ -1,7 +1,10 @@
 # Lamin-NPC Analysis
 Sub-pixel Analysis of Lamin Fibers and Nuclear Pore Complexes
 
-The repository is meant to support "[Nuclear Lamins A/C and B1 Provide a Structural Framework That Organizes and Anchors Nuclear Pore Complexes](https://doi.org/10.1101/2020.04.03.022798)" by Mark Kittisopikul, Takeshi Shimi, Meltem Tatli, Joseph R. Tran, Yixian Zheng, Ohad Medalia, Khuloud Jaqaman, Stephen A. Adam, and Robert D. Goldman currently available as a preprint on bioRxiv.
+The repository is meant to support "[Computational analyses reveal spatial relationships between nuclear pore complexes and specific lamins](https://doi.org/10.1083/jcb.202007082)" by Mark Kittisopikul, Takeshi Shimi, Meltem Tatli, Joseph R. Tran, Yixian Zheng, Ohad Medalia, Khuloud Jaqaman, Stephen A. Adam, and Robert D. Goldman currently available as a preprint on [bioRxiv](https://doi.org/10.1101/2020.04.03.022798).
+
+[![DOI](https://zenodo.org/badge/256034673.svg)](https://zenodo.org/badge/latestdoi/256034673)
+
 
 ## Abstract
 
@@ -56,4 +59,4 @@ This software release is a work-in-progress.
      GNU General Public License for more details.
  
      You should have received a copy of the GNU General Public License
-%     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+     along with this program.  If not, see <https://www.gnu.org/licenses/>.
